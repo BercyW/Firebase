@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="security.bercy.com.firebase.view.login.LoginActivity"
+    android:orientation="vertical"
+    >
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="User Name"
+       android:text="xyz1@gmail.com"
+       android:id="@+id/et_userName"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PassWord"
+        android:text="1234567"
+        android:id="@+id/et_passWord"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_signUp"
+        android:onClick="OnFireBaseSignUp"
+        android:text="Sign UP"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_signin"
+        android:onClick="OnFireBaseSignIn"
+        android:text="Sign in"
+        />
+
+</LinearLayout>
